@@ -21,3 +21,11 @@ sh:
 .PHONY: modules
 modules:
 	docker run --rm -v $PWD:/app -w /app node yarn install
+
+.PHONY: lint
+lint:
+	docker compose exec app yarn lint
+
+.PHONY: format
+format:
+	docker compose exec app yarn format
