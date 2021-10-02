@@ -17,3 +17,7 @@ down:
 .PHONY: sh
 sh:
 	docker-compose run --rm app sh
+
+.PHONY: modules
+modules:
+	docker run --rm -v $PWD:/app -w /app node yarn install
