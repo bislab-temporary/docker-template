@@ -1,0 +1,8 @@
+{
+  // ファイルの最後に必ず1行だけ空行を残す
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+  // 保存時にフォーマットする
+  "editor.formatOnSave": true
+}
