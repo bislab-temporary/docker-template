@@ -12,6 +12,9 @@
   // 保存時にフォーマットする
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
 
   // インデントタブはスペースx2
   "editor.tabSize": 2,
