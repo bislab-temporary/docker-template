@@ -21,4 +21,7 @@
 
   //改行コードを LF に統一
   "files.eol": "\n",
+
+  // import 文の自動補完を絶対パスでおこなう
+  "typescript.preferences.importModuleSpecifier": "non-relative",
 }
