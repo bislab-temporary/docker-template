@@ -3,6 +3,7 @@
 	"dockerComposeFile": "../docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/app",
+	"postCreateCommand": "yarn install",
 	"extensions": [
 		"esbenp.prettier-vscode",
 		"dbaeumer.vscode-eslint",
